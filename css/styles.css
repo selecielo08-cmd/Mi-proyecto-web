@@ -40,7 +40,9 @@ h2 {
 .contenedor{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 div {
