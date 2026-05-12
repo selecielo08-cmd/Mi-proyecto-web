@@ -35,8 +35,6 @@ h2 {
 }
 
 
-
-
 .contenedor{
     display: flex;
     flex-direction: row;
@@ -70,7 +68,10 @@ div {
     display: flex; 
     flex-direction: column; 
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
 }
 
 @media (max-width: 992px){
@@ -84,6 +85,10 @@ div {
 
 @media (max-width: 576px){
     body{background-color: rgb(255, 255, 255);}
+}
+
+img{
+    max-width: 100%;    
 }
 
 footer {
